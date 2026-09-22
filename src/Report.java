@@ -153,6 +153,7 @@ public class Report {
 
 
     public String isImproving(int[] scores) {
+
         return isImprovingHelper(scores, 1, true, true);
     }
     private String isImprovingHelper(int[] scores, int index, boolean nonDecreasingSoFar, boolean nonIncreasingSoFar) {
